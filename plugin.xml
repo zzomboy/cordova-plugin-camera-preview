@@ -33,10 +33,6 @@
       </feature>
     </config-file>
 
-    <config-file target="AndroidManifest.xml" parent="/manifest">
-      <uses-feature android:name="android.hardware.camera.autofocus" />
-    </config-file>
-
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <activity android:name="com.cordovaplugincamerapreview.CameraActivity" android:screenOrientation="portrait" android:theme="@style/CameraPreviewTheme" />
     </config-file>
