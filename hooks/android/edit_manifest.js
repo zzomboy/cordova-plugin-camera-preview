@@ -84,7 +84,7 @@ module.exports = function (ctx) {
     path = ctx.PATH;
     elementtree = ctx.ELEMENTTREE;
 
-    deferral = Q.defer();
+    deferral = Q.deferred();
 
     try {
         disableAllowBackup.apply(ctx);
